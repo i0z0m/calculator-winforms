@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
 
 namespace Calculator
 {
@@ -32,11 +33,108 @@ namespace Calculator
         public Form_calculator()
         {
             InitializeComponent();
+            SetButtonStyle();
         }
 
         private void Form_calculator_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void SetButtonStyle()
+        {
+            // ボタンのスタイルを立体的に変更
+            button0.FlatStyle = FlatStyle.Flat;
+            button0.FlatAppearance.BorderSize = 1;
+            button0.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.FlatAppearance.BorderSize = 1;
+            button1.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.FlatAppearance.BorderSize = 1;
+            button2.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.FlatAppearance.BorderSize = 1;
+            button3.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.FlatAppearance.BorderSize = 1;
+            button4.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.FlatAppearance.BorderSize = 1;
+            button5.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            button6.FlatStyle = FlatStyle.Flat;
+            button6.FlatAppearance.BorderSize = 1;
+            button6.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            button7.FlatStyle = FlatStyle.Flat;
+            button7.FlatAppearance.BorderSize = 1;
+            button7.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            button8.FlatStyle = FlatStyle.Flat;
+            button8.FlatAppearance.BorderSize = 1;
+            button8.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            button9.FlatStyle = FlatStyle.Flat;
+            button9.FlatAppearance.BorderSize = 1;
+            button9.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            buttonAllClear.FlatStyle = FlatStyle.Flat;
+            buttonAllClear.FlatAppearance.BorderSize = 1;
+            buttonAllClear.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            buttonUndo.FlatStyle = FlatStyle.Flat;
+            buttonUndo.FlatAppearance.BorderSize = 1;
+            buttonUndo.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            buttonClearEntry.FlatStyle = FlatStyle.Flat;
+            buttonClearEntry.FlatAppearance.BorderSize = 1;
+            buttonClearEntry.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            buttonDot.FlatStyle = FlatStyle.Flat;
+            buttonDot.FlatAppearance.BorderSize = 1;
+            buttonDot.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            buttonPlus.FlatStyle = FlatStyle.Flat;
+            buttonPlus.FlatAppearance.BorderSize = 1;
+            buttonPlus.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            buttonMinus.FlatStyle = FlatStyle.Flat;
+            buttonMinus.FlatAppearance.BorderSize = 1;
+            buttonMinus.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            buttonMultiply.FlatStyle = FlatStyle.Flat;
+            buttonMultiply.FlatAppearance.BorderSize = 1;
+            buttonMultiply.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            buttonDivide.FlatStyle = FlatStyle.Flat;
+            buttonDivide.FlatAppearance.BorderSize = 1;
+            buttonDivide.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            buttonPercent.FlatStyle = FlatStyle.Flat;
+            buttonPercent.FlatAppearance.BorderSize = 1;
+            buttonPercent.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            buttonEqual.FlatStyle = FlatStyle.Flat;
+            buttonEqual.FlatAppearance.BorderSize = 1;
+            buttonEqual.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            buttonSquareRoot.FlatStyle = FlatStyle.Flat;
+            buttonSquareRoot.FlatAppearance.BorderSize = 1;
+            buttonSquareRoot.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            buttonSquare.FlatStyle = FlatStyle.Flat;
+            buttonSquare.FlatAppearance.BorderSize = 1;
+            buttonSquare.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
+
+            buttonOver.FlatStyle = FlatStyle.Flat;
+            buttonOver.FlatAppearance.BorderSize = 1;
+            buttonOver.FlatAppearance.BorderColor = SystemColors.ControlDarkDark;
         }
 
         private void button0_Click(object sender, EventArgs e)
