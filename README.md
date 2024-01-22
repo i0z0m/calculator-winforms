@@ -1,3 +1,5 @@
-# Calculator-DiCEJAPAN
+# calculator-windows-forms
 
-[DiCE JAPAN株式会社 9Daysプログラミングセミナー【事前課題】.pdf](https://d1ysz50cxb9zwl.cloudfront.net/icZjXn0jRFsEzd1ovIi1RTT0vGHF4KsoUeL4I3sUZCdrdCz45aWVgbDaR1qs44Jl/by/43581309/as/file.pdf?Expires=1682557764&Signature=gg6Hs1zCMmCuBrLsorAnxnkMeKoCnpjkyZpuniSoqdXhL6No8oO~ID3V~aUQOFXVReoxxC2af-4ZyaIJqq2GHNUR~FYVtm4TewNxhWsIi1drMQgtKj3wOvKq3QxgY8zYLU5Taz7HY~WNJKj-5Dar4uIsZcah7x6EavraGfjtqSbQSYD-~F87C7B-j~gA4mm~4NawD9UYGh1C8jiLQhQiYkpirVakf6QI3PKUBYGrx7R-X9GTHR8gdSIzYsuc7oaoQgzGnz~1Cyv0i0KqGIZuIEGXyYhNPM6nvsZQNN1aUUyH~d4-JxLJK9FQaHLWctTeAx22HaHJuhobHO0iitsr~A__&Key-Pair-Id=APKAJAERRT46LD6FN4NA)
+## Acknowledgement
+
+- [Windows Form Applicationで電卓を作成してみよう！](https://kintame.site/c-calculator/)
