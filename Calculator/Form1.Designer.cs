@@ -351,12 +351,13 @@
             // 
             // buttonSquare
             // 
+            this.buttonSquare.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttonSquare.Location = new System.Drawing.Point(80, 227);
             this.buttonSquare.Name = "buttonSquare";
             this.buttonSquare.Size = new System.Drawing.Size(80, 50);
             this.buttonSquare.TabIndex = 38;
             this.buttonSquare.Text = "^2";
-            this.buttonSquare.UseVisualStyleBackColor = true;
+            this.buttonSquare.UseVisualStyleBackColor = false;
             this.buttonSquare.Click += new System.EventHandler(this.buttonSquare_Click);
             // 
             // buttonOver

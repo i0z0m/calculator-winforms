@@ -366,7 +366,8 @@ namespace Calculator
 
         private void buttonSquare_Click(object sender, EventArgs e)
         {
-
+            double result = Math.Pow(double.Parse(textBox_Result.Text), 2);
+            textBox_Result.Text = result.ToString();
         }
 
         private void buttonOver_Click(object sender, EventArgs e)
