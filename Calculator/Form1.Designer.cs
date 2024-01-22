@@ -362,12 +362,13 @@
             // 
             // buttonOver
             // 
+            this.buttonOver.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttonOver.Location = new System.Drawing.Point(0, 227);
             this.buttonOver.Name = "buttonOver";
             this.buttonOver.Size = new System.Drawing.Size(80, 50);
             this.buttonOver.TabIndex = 39;
             this.buttonOver.Text = "1/";
-            this.buttonOver.UseVisualStyleBackColor = true;
+            this.buttonOver.UseVisualStyleBackColor = false;
             this.buttonOver.Click += new System.EventHandler(this.buttonOver_Click);
             // 
             // Form_calculator

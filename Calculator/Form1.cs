@@ -372,7 +372,8 @@ namespace Calculator
 
         private void buttonOver_Click(object sender, EventArgs e)
         {
-
+            double result = 1 / double.Parse(textBox_Result.Text);
+            textBox_Result.Text = result.ToString();
         }
 
         private void Num_PoolMethod()// ＋ ー × ÷ ％ 演算子の計算処理
