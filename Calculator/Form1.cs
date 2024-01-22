@@ -360,7 +360,8 @@ namespace Calculator
 
         private void buttonSquareRoot_Click(object sender, EventArgs e)
         {
-
+            double result = Math.Sqrt(double.Parse(textBox_Result.Text));
+            textBox_Result.Text = result.ToString();
         }
 
         private void buttonSquare_Click(object sender, EventArgs e)

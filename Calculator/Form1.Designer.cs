@@ -340,12 +340,13 @@
             // 
             // buttonSquareRoot
             // 
+            this.buttonSquareRoot.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttonSquareRoot.Location = new System.Drawing.Point(160, 227);
             this.buttonSquareRoot.Name = "buttonSquareRoot";
             this.buttonSquareRoot.Size = new System.Drawing.Size(80, 50);
             this.buttonSquareRoot.TabIndex = 37;
             this.buttonSquareRoot.Text = "√";
-            this.buttonSquareRoot.UseVisualStyleBackColor = true;
+            this.buttonSquareRoot.UseVisualStyleBackColor = false;
             this.buttonSquareRoot.Click += new System.EventHandler(this.buttonSquareRoot_Click);
             // 
             // buttonSquare
