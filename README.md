@@ -1,4 +1,4 @@
-# calculator-windows-forms
+# calculator-winforms
 
 ![Screenshot](https://github.com/i0z0m/calculator-windows-forms/assets/8271553/bb3c8aa2-c06c-4063-a6f6-2503e3ea0ceb)
 
